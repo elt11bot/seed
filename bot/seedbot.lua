@@ -226,30 +226,30 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {53406884,,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[e.l.t v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/elt11bot/e.l.t-bot
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@aryanes81 [Founder]
+@amir_pga[Developer]
+@aryanes81 [Developer]
+@aryanes81 [Manager]
 
 Special thanks to
-awkward_potato
-Siyanew
+@aryanes81
+@amir_pga
 topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
-]],
+@elt_bot1 [English]
+@elt_bot1[persian]
+]]/,
     help_text_realm = [[
 Realm Commands:
 
@@ -514,7 +514,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 53406884
 now = os.time()
 math.randomseed(now)
 started = false
